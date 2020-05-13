@@ -13,7 +13,6 @@ var dd: Double?
 var ss: String?
 
 // Read and save an integer, double, and String to your variables.
-
 let intInput = readLine()
 
 if let stringInt = intInput{
