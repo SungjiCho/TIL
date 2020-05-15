@@ -28,13 +28,24 @@ if let stringDouble = doubleInput{
 let stringInput = readLine()
 
 if let string = stringInput{
-    ss = string
+   ss = string
 }
 
+
 // Print the sum of both integer variables on a new line.
-print(i + ii!)
+
+if let optInt = ii{
+    print(i + optInt)
+}
+// print(i + ii!)
 // Print the sum of the double variables on a new line.
-print(d + dd!)
+if let optDouble = dd{
+    print(d + optDouble)
+}
+//print(d + dd!)
 // Concatenate and print the String variables on a new line
-print("\(s)\(ss!)")
+if let optString = ss{
+    print(s + optString)
+}
+//print("\(s)\(ss!)")
 // The 's' variable above should be printed first.
