@@ -13,27 +13,21 @@ var dd: Double?
 var ss: String?
 
 // Read and save an integer, double, and String to your variables.
-let intInput = readLine()
 
-if let stringInt = intInput{
+if let stringInt = readLine(){
     ii = Int(stringInt)
 }
 
-let doubleInput = readLine()
-
-if let stringDouble = doubleInput{
+if let stringDouble = readLine(){
     dd = Double(stringDouble)
 }
 
-let stringInput = readLine()
-
-if let string = stringInput{
+if let string = readLine(){
    ss = string
 }
 
 
 // Print the sum of both integer variables on a new line.
-
 if let optInt = ii{
     print(i + optInt)
 }
