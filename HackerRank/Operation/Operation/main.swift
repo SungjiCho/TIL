@@ -33,5 +33,3 @@ guard let tax_percent = Int((readLine()?.trimmingCharacters(in: .whitespacesAndN
 
 solve(meal_cost: meal_cost, tip_percent: tip_percent, tax_percent: tax_percent)
 
-
-
