@@ -20,9 +20,7 @@ let arr: [Int] = arrTemp.split(separator: " ").map {
 }
 
 guard arr.count == n else { fatalError("Bad input") }
-
 let len = arr.count
-
 for i in 1...len{
     print("\(arr[len - i]) ", terminator: "")
 }
