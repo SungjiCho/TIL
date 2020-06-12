@@ -22,6 +22,20 @@ extension StringProtocol{
     }
 }
 
+func bubbleSort(_ arr:[UInt32]) -> [UInt32]{
+    
+    var sortedArr = arr
+    for i in 0..<sortedArr.count-1{
+        for j in 0..<sortedArr.count-i-1{
+            if sortedArr[j] > sortedArr[j+1]{
+                (sortedArr[j], sortedArr[j+1]) = (sortedArr[j+1], sortedArr[j])
+            }
+        }
+    }
+    
+    return sortedArr
+}
+
 func solution(_ s:String) -> String {
     var str = ""
     var arr = s.ascii
@@ -32,3 +46,5 @@ func solution(_ s:String) -> String {
     }
     return str
 }
+
+var s = "abcdeZ"
