@@ -8,14 +8,12 @@
 
 import Foundation
 
-print(sqrt(4))
-
 func solution(_ n:Int64) -> Int64 {
     var root = sqrt(Double(n))
     var answer = 0.0
     
-    if Double(n) - floor(root) == 0.0{
-        answer = root*root
+    if root - floor(root) == 0.0{
+        answer = (root+1)*(root+1)
     }else{
         answer = -1
     }
@@ -23,4 +21,4 @@ func solution(_ n:Int64) -> Int64 {
     return Int64(answer)
 }
 
-print(solution(121))
+print(solution(3))
