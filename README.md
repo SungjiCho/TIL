@@ -6,6 +6,8 @@
 ----------------------
 
 **+ Until 2020.06.30**
+**+ Until 2020.07.04**
+**+ Until 2020.07.11**
 
 | <center>#</center> |  <center>Level</center> |  <center>Title</center> |  <center>Language</center> | <center>Done</center> |
 |:--------|:--------|:--------:|--------:|--------:|
@@ -26,7 +28,7 @@
 | 15 | 1 | 하샤드 수 | Swift | T |
 | 16 | 1 | 핸드폰 번호 가리기 | Swift | T |
 | 17 | 1 | 직사각형 별찍기 | Swift | T |
-| 18 | 2 | 탑 | - | - |
+| 18 | 2 | 탑 | Swift | T |
 | 19 | 2 | 쇠막대기 | - | - |
 | 20 | 2 | 큰 수 만들기 | - | - |
 | 21 | 2 | 가장 큰 수 | - | - |
@@ -39,6 +41,8 @@
 ----------------------
 
 **+ Until 2020.06.30**
+**+ Until 2020.07.04**
+**+ Until 2020.07.11**
 
 | <center>#</center> |  <center>Step</center>|  <center>Category</center> |  <center>Title</center> |  <center>Language</center> | <center>Done</center> |
 |:--------|:--------|:--------|:--------:|--------:|--------:|
@@ -94,3 +98,43 @@
 | 50 | 14 | 정렬 | 단어 정렬 | - | - |
 | 51 | 14 | 정렬 | 나이순 정렬 | - | - |
 
+<br><br>
+
+### HackerRank
+----------------------
+
+**+ Until 2020.06.30**
+**+ Until 2020.07.04**
+**+ Until 2020.07.11**
+
+| <center>#</center> |  <center>Day</center>|  <center>Title</center> |  <center>Language</center> | <center>Done</center> |
+|:--------|:--------|:--------|:--------:|--------:|
+| 1 | 1 | Data Types | Swift | T |
+| 2 | 2 | Operators | Swift | T |
+| 3 | 3 | Intro to Conditional Statements | Swift | T |
+| 4 | 4 | Class vs. Instance | Swift | T |
+| 5 | 5 | Loops | Swift | T |
+| 6 | 6 | Let's Review | Swift | T |
+| 7 | 7 | Arrays | Swift | T |
+| 8 | 8 | Dictionaries and Maps | Swift | T |
+| 9 | 9 | Recursion 3 | Swift | T |
+| 10 | 10 | Binary Numbers | - | - |
+| 11 | 11 | 2D Arrays | - | - |
+| 12 | 12 | Inheritance | - | - |
+| 13 | 13 | Abstract Classes | - | - |
+| 14 | 14 | Scope | - | - |
+| 15 | 15 | Linked List | - | - |
+| 16 | 16 | Exceptions - String to Integer | - | - |
+| 17 | 17 | More Exceptions | - | - |
+| 18 | 18 | Queues and Stacks | - | - |
+| 19 | 19 | Interfaces | - | - |
+| 20 | 20 | Sorting | - | - |
+| 21 | 21 | Generics | - | - |
+| 22 | 22 | Binary Search Trees | - | - |
+| 23 | 23 | BST Level-Order Traversal | - | - |
+| 24 | 24 | More Linked Lists | - | - |
+| 25 | 25 | Running Time and Complexity | - | - |
+| 26 | 26 | Nested Logic | - | - |
+| 27 | 27 | Testing | - | - |
+| 28 | 28 | RegEx, Patterns, and Intro to Databases | - | - |
+| 29 | 29 | Bitwise AND | - | - |
