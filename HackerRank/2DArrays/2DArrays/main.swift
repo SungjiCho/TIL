@@ -8,5 +8,17 @@
 
 import Foundation
 
-print("Hello, World!")
+let arr: [[Int]] = AnyIterator{ readLine() }.prefix(1).map {
+    let arrRow: [Int] = $0.split(separator: " ").map {
+        if let arrItem = Int($0.trimmingCharacters(in: .whitespacesAndNewlines)) {
+            return arrItem
+        } else { fatalError("Bad input") }
+    }
 
+    guard arrRow.count == 6 else { fatalError("Bad input") }
+    print(arrRow)
+
+    return arrRow
+}
+
+guard arr.count == 1 else { fatalError("Bad input") }
