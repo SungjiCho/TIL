@@ -6,8 +6,6 @@
 ----------------------
 
 **+ Until 2020.06.30**
-**+ Until 2020.07.04**
-**+ Until 2020.07.11**
 
 | <center>#</center> |  <center>Level</center> |  <center>Title</center> |  <center>Language</center> | <center>Done</center> |
 |:--------|:--------|:--------:|--------:|--------:|
@@ -41,8 +39,6 @@
 ----------------------
 
 **+ Until 2020.06.30**
-**+ Until 2020.07.04**
-**+ Until 2020.07.11**
 
 | <center>#</center> |  <center>Step</center>|  <center>Category</center> |  <center>Title</center> |  <center>Language</center> | <center>Done</center> |
 |:--------|:--------|:--------|:--------:|--------:|--------:|
@@ -104,8 +100,6 @@
 ----------------------
 
 **+ Until 2020.06.30**
-**+ Until 2020.07.04**
-**+ Until 2020.07.11**
 
 | <center>#</center> |  <center>Day</center>|  <center>Title</center> |  <center>Language</center> | <center>Done</center> |
 |:--------|:--------|:--------|:--------:|--------:|
