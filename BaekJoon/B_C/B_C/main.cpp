@@ -7,9 +7,12 @@
 //
 
 #include <iostream>
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main() {
+    auto a=0, b=0;
+    cin >> a >> b;
+    cout.precision(10);
+    cout << a/(double)b << endl;
     return 0;
 }
