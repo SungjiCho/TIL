@@ -29,6 +29,7 @@ public:
     Stack(int size);
     bool empty();
     int size();
+    int topNum();
     void push(int X);
     void pop();
     void print();
@@ -46,7 +47,12 @@ bool Stack::empty(){
 }
 
 int Stack::size(){
-    return top;
+    return top+1;
+}
+
+int Stack::topNum(){
+    if (top == -1) return -1;
+    else return stack[top];
 }
 
 void Stack::push(int X){
@@ -55,27 +61,44 @@ void Stack::push(int X){
 }
 
 void Stack::pop(){
-    if (top == -1) cout << -1;
+    if (top == -1) cout << -1 << endl;
     else {
-        cout << stack[top--];
+        cout << stack[top--] << endl;
     }
 }
 
 void Stack::print(){
     for(int i = 0; i <= top; i++)
-        cout << stack[i];
+        cout << stack[i] << endl;
 }
 
 
-int main() {
+int main(void) {
     
-    Stack stack(5);
-    stack.push(1);
-    stack.push(2);
-    stack.print();
-    cout << "---" << stack.size()+1 << endl;
-    stack.pop();
-    cout << "---" << stack.size()+1 << endl;
-    stack.print(); 
+    int N;
+    string str;
+    
+    cin >> N;
+    Stack stack(N);
+    
+    for(int i = 0; i < N; i++){
+        
+        cin >> str;
+        
+        if (str == "push") {
+            int X;
+            cin >> X;
+            stack.push(X);
+        } else if (str == "pop") {
+            stack.pop();
+        } else if (str == "size") {
+            cout << stack.size() << endl;
+        } else if (str == "empty") {
+            cout << stack.empty() << endl;
+        } else if (str == "top") {
+            cout << stack.topNum() << endl;
+        }
+    }
+   
     return 0;
 }
