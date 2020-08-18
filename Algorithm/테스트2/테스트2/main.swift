@@ -64,9 +64,7 @@ func solution(_ arrayA:[Int], _ arrayB:[Int]) -> [Int]{
     output.append(B.count)
     output.append(S.count)
     output += N
-    
-    
-    
+        
 //    if arrayA.count < 1{
 //        A = []
 //        output.append(A.count)

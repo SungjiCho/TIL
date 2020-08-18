@@ -74,6 +74,7 @@ void Stack::print(){
 
 
 int main(void) {
+    ios_base::sync_with_stdio(false);
     
     int N;
     string str;
