@@ -5,7 +5,7 @@
 ### Programmers
 ----------------------
 
-**+ Until 2020.07**
+**+ Until 2020.10.24**
 
 | <center>#</center> |  <center>Level</center> |  <center>Title</center> |  <center>Language</center> | <center>Done</center> |
 |:--------|:--------|:--------:|--------:|--------:|
@@ -38,7 +38,7 @@
 ### BaekJoon
 ----------------------
 
-**+ Until 2020.07**
+**+ Until 2020.10.24**
 
 | <center>#</center> |  <center>Step</center>|  <center>Category</center> |  <center>Title</center> |  <center>Language</center> | <center>Done</center> |
 |:--------|:--------|:--------|:--------:|--------:|--------:|
@@ -69,7 +69,7 @@
 | 25 | 6 | 1차원 배열 | OX퀴즈 | Swift | T |
 | 26 | 6 | 1차원 배열 | 평균은 넘겠지 | Swift | F |
 | 27 | 7 | 함수 | 정수 N개의 합 | N | N |
-| 28 | 7 | 함수 | 셀프 넘버 | - | - |
+| 28 | 7 | 함수 | 셀프 넘버 | Swift | F |
 | 29 | 7 | 함수 | 한수 | - | - |
 | 30 | 8 | 문자열 | 아스키 코드 | Swift | T |
 | 31 | 8 | 문자열 | 숫자의 합 | Swift | T |
@@ -99,7 +99,7 @@
 ### HackerRank
 ----------------------
 
-**+ Until 2020.07**
+**+ Until 2020.10.24**
 
 | <center>#</center> |  <center>Day</center>|  <center>Title</center> |  <center>Language</center> | <center>Done</center> |
 |:--------|:--------|:--------|:--------:|--------:|
