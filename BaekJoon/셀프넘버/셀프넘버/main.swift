@@ -6,35 +6,30 @@
 //  Copyright © 2020 조성지. All rights reserved.
 //
 
-import Foundation
-
-func selfNumber(n: Int){
-        
-    var selfSet = Set<Int>()
-    var n = n
-    var dn = n
-    
-    while dn < 100{
-        selfSet.insert(dn)
-        n = dn
-        while n > 0{
-            dn += n%10
-            n = n/10
-        }
+func d(_ n: Int) -> Int {
+    var sum = n
+    var t = n
+    while t > 0 {
+        sum += t % 10
+        t /= 10
     }
-    
-    
-    
-    selfSet.remove(1)
-    print("start")
-    for i in 1..<100{
-        if selfSet.contains(i){
-            continue
-        }else{
-            print(i)
-        }
+    return sum
+}
+
+
+var arr = Array(repeating: true, count: 10001)
+
+for index in 1...10000 {
+    let number = d(index)
+    if number <= 10000 {
+        arr[number] = false
     }
 }
 
-selfNumber(n: 1)
+for index in 1...10000 {
+    if arr[index] == true {
+        print(index)
+    }
+}
+
 
